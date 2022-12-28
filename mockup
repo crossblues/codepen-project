@@ -1,0 +1,36 @@
+<!doctype = html>
+<html lang="en"></html>
+<meta charset="utf-8">
+
+><header>
+    <h1>
+        
+
+    </h1>
+    <img src='images\logo\Booki.png' alt = 'specialimage' title='image'>
+</header>
+
+<nav>
+    <h3>
+        Find a place for your dream vacation
+    </h3>
+    <p>
+        Downtown or in nature
+    </p>
+</nav>
+
+<article>
+
+</article>
+
+<aside>
+
+</aside>
+
+<section>
+
+</section>
+
+<footer>
+    
+</footer>
