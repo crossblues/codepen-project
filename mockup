@@ -1,8 +1,11 @@
 <!doctype = html>
 <html lang="en"></html>
 <meta charset="utf-8">
+<link href="C:\Users\Lamarr\Documents\GitHub\codepen-project\STYLE2.css"
+type="text/css" rel="stylesheet">
 
 ><header>
+    you'll need to place the accomodations/activities links up here
     <h1>
         
 
@@ -17,20 +20,63 @@
     <p>
         Downtown or in nature
     </p>
+        /* filters should be here
 </nav>
 
 <article>
+ inline images here, make a grid
+    <div>
 
+    </div>
 </article>
 
 <aside>
+the aside should be flexbox?
+    <div class="container-accom">
+        all images here.
+        <div>
+            <figure>
+                <img src='images\hebergements\4_small\marcus-loke-WQJvWU_HZFo-unsplash.jpg' alt='accom image 1' title='Auberge la cannebiere'>
+                <figcaption> Auberge <br> Night starting at 25</figcaption>
+            </figure>
+        </div>
 
+        <div>
+
+        </div>
+        
+        <div>
+
+        </div>
+
+        <div>
+
+        </div>
+
+        <div>
+
+        </div>
+
+        <div>
+
+        </div>
+
+        <div>
+
+        </div>
+    </div>
 </aside>
 
 <section>
-
+another grid, the question is how to round images and their captions and have dropshadows
 </section>
 
 <footer>
-    
+one more grid of links for bottom
 </footer>
+
+
+
+REQUIREMENTS:
+1) USE PIXELS FOR 
+<!--need to figure out how to use images of different sizes for different screen sizes-->

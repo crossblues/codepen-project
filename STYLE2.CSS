@@ -1,0 +1,17 @@
+h1 {
+     /*accomodat ions and activities texts need to turn blue when picked */
+}
+
+ /*all of these should resize based on screen size*/
+.container-accom {
+     /*grid for images */
+     display: grid;
+}
+
+.container-popular {
+  /*this is a single column so can be done in flex */  
+} 
+
+.container-activities {
+     /*grid, some images take ul multiple squares?  */
+}
