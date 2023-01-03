@@ -1,3 +1,8 @@
+* {
+     box-sizing: border-box;
+   }
+   
+
 h1 {
      /*accomodat ions and activities texts need to turn blue when picked */
 }

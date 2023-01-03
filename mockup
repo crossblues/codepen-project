@@ -1,7 +1,9 @@
 <!doctype = html>
 <html lang="en"></html>
 <meta charset="utf-8">
-<link href="C:\Users\Lamarr\Documents\GitHub\codepen-project\STYLE2.css"
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<link href="STYLE 2 LINK"
 type="text/css" rel="stylesheet">
 
 ><header>
@@ -10,7 +12,7 @@ type="text/css" rel="stylesheet">
         
 
     </h1>
-    <img src='images\logo\Booki.png' alt = 'specialimage' title='image'>
+    <img src='BOOKILOGO' alt = 'specialimage' title='image'>
 </header>
 
 <nav>
@@ -36,7 +38,7 @@ the aside should be flexbox?
         all images here.
         <div>
             <figure>
-                <img src='images\hebergements\4_small\marcus-loke-WQJvWU_HZFo-unsplash.jpg' alt='accom image 1' title='Auberge la cannebiere'>
+                <img src='MARCUS LOKE IMAGE' alt='accom image 1' title='Auberge la cannebiere'>
                 <figcaption> Auberge <br> Night starting at 25</figcaption>
             </figure>
         </div>
