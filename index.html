@@ -1,20 +1,29 @@
 <!doctype = html>
+<head>
 <html lang="en"></html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="stylesheet" href="assets\font-awesome-4.7.0\css\font-awesome.min.css">
-
-<link href="STYLE 2 LINK"
+<title>Booki - Find your dream vacation!</title>
+<link href="STYLE2.CSS"
 type="text/css" rel="stylesheet">
+<script src="https://kit.fontawesome.com/a6f6f49cd5.js" crossorigin="anonymous"></script>
+</head>
 
-><header>
-    you'll need to place the accomodations/activities links up here
-    <h1>
-        
-
-    </h1>
-    <img src='images\logo\Booki@3x.png' alt = 'specialimage' title='image'>
-</header>
+<body class="header">
+    <img src='images\logo\Booki.png' alt = 'specialimage' title='image'>
+  <div class="container">
+    
+    <div>
+      
+      <a class="topbutton" href="#accom"> Accomodations </a> 
+    </div>
+    <div> 
+        <a class="topbutton2" href="#act"> Activities </a>
+    </div> 
+    
+    </div>
+</body>
 
 <nav>
     <h3>
@@ -23,63 +32,159 @@ type="text/css" rel="stylesheet">
     <p>
         Downtown or in nature
     </p>
-        /* filters should be here
+
+<div class="search">
+    <div class="searchform">
+        <form action="Search">
+            <label for="search-accom">Search:</label>
+        <input type="text" name="search-accom" id="search-accom">
+        </form>
+    </div>   
+</div>
+ 
+    <div class="nav-bars">
+        <h5 class="filter"> Filters </h5>
+        <a class="navcostbutton" href="#cost"> Low cost</a>
+        <a class="navfamilybutton" href="#nav">Family-friendly</a>
+        <a class="navromanbutton" href="#roman">Romantic</a>
+        <a class="navpetbutton" href="#pet">Pets allowed</a>
+     </div>
+    
 </nav>
 
+
+
+<aside>
+
+    <div class="container-accom">
+        <h2 class="achead"> Accomodations in Marseille </h2>
+        <div class="accomcard">
+            
+                <img src='images\accomodation\4_small\marcus-loke-WQJvWU_HZFo-unsplash.jpg' alt='accom image 1' title='Auberge la cannebiere'>
+                <h2> Auberge la Cannebiere</h2>
+                    <p> Night starting at 25</p> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+            
+        </div>
+
+        <div class="accomcard">
+           
+            <img src='images\accomodation\4_small\fred-kleber-gTbaxaVLvsg-unsplash.jpg' alt='accom image 1' title='Auberge la cannebiere'>
+            <h2> Hotel du port </h2>
+                <p> Night starting at 52</p> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+        </div>
+            
+        <div class="accomcard">
+             
+            <img src='images\accomodation\4_small\reisetopia-B8WIgxA_PFU-unsplash.jpg' alt='accom image 1' title='Auberge la cannebiere'>
+            <h2> Les mouettes Hotel </h2>
+                <p> Night starting at 76</p> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+        </div>
+
+        <div class="accomcard">
+             
+            <img src='images\accomodation\4_small\annie-spratt-Eg1qcIitAuA-unsplash.jpg' alt='accom image 1' title='Auberge la cannebiere'>
+            <h2> Hotel de la mer </h2>
+                <p> Night starting at 46</p> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+        </div>
+
+        <div class="accomcard">
+            
+            <img src='images\accomodation\4_small\nicate-lee-kT-ZyaiwBe0-unsplash.jpg' alt='accom image 1' title='Auberge la cannebiere'>
+            <h2> Auberge Le Panier </h2>
+                <p> Night starting at 23</p> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+        </div>
+
+        <div class="accomcard">
+             
+            <img src='images\accomodation\4_small\marcus-loke-WQJvWU_HZFo-unsplash.jpg' alt='accom image 1' title='Auberge la cannebiere'>
+            <h2> Hotel chez Amina </h2>
+                <p> Night starting at 96</p> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+        </div>
+
+       
+    </div>
+</aside>
+
 <article>
- inline images here, make a grid
-    <div>
+ <h2> </h2>
+    <div class="container-pop">
+        <h1> Most Popular </h1>
+        <div class="popcard">
+            
+                <img src='images\accomodation\4_small\marcus-loke-WQJvWU_HZFo-unsplash.jpg' alt='accom image 1' title='Auberge la cannebiere'>
+                <h2> Auberge </h2>
+                    <p> Night starting at 25</p>
+            
+        </div>
+
+        <div class="popcard">
+            
+            <img src='images\accomodation\4_small\marcus-loke-WQJvWU_HZFo-unsplash.jpg' alt='accom image 1' title='Auberge la cannebiere'>
+            <h2> Auberge </h2>
+                <p> Night starting at 25</p>
+        
+    </div>
+
+    <div class="popcard">
+            
+        <img src='images\accomodation\4_small\marcus-loke-WQJvWU_HZFo-unsplash.jpg' alt='accom image 1' title='Auberge la cannebiere'>
+        <h2> Auberge </h2>
+            <p> Night starting at 25</p>
+    </div>
+</div>
+
 
     </div>
 </article>
 
-<aside>
-the aside should be flexbox?
-    <div class="container-accom">
-        all images here.
-        <div>
-            <figure>
-                <img src='MARCUS LOKE IMAGE' alt='accom image 1' title='Auberge la cannebiere'>
-                <figcaption> Auberge <br> Night starting at 25</figcaption>
-            </figure>
-        </div>
+<section>
+    <h2 class="acttxt">Activities in Marseille</h2>
+    <div class="container-act">
 
-        <div>
-
-        </div>
-        
-        <div>
-
-        </div>
-
-        <div>
-
-        </div>
-
-        <div>
-
-        </div>
-
-        <div>
-
-        </div>
-
-        <div>
-
+        <div class="popcard">
+            
+            <img src='images\accomodation\4_small\marcus-loke-WQJvWU_HZFo-unsplash.jpg' alt='accom image 1' title='Auberge la cannebiere'>
+            <h2> Auberge </h2>
+                <p> Night starting at 25</p>
         </div>
     </div>
-</aside>
 
-<section>
-another grid, the question is how to round images and their captions and have dropshadows
 </section>
 
 <footer>
-one more grid of links for bottom
+    <div class="footer">
+        <div>
+            <h2>About</h2>
+            <ul>
+                <li>Site Map</li>
+                <li>General Terms and Conditions</li>
+                <li>Data and Privacy</li>
+                
+            </ul>
+        </div>
+
+        <div>
+            <h2>Our Accomodations</h2>
+            <ul>
+                <li>Quality Assessment</li>
+                <li>You have a hotel?</li>
+                
+                
+            </ul>
+        </div>
+
+        <div>
+            <h2>Assistance</h2>
+            <ul>
+                <li>Help Desk</li>
+                <li>Contact Us</li>
+                
+                
+            </ul>
+        </div>
+
+    </div>
 </footer>
 
 
-
-REQUIREMENTS:
-1) USE PIXELS FOR 
 <!--need to figure out how to use images of different sizes for different screen sizes-->
