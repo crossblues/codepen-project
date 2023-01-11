@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 * {
      box-sizing: border-box;
+     font-family: 'Raleway', sans-serif;
    }
 
     @media all and (max-width: 768px) {
@@ -12,9 +15,11 @@
      padding: 0;
 }
 
+
+
 @font-face {
      font-family: Raleway;
-     src: url(assets\fonts\Raleway-Italic-VariableFont_wght.ttf);
+     src: url('assets\fonts\static\Raleway-Black.ttf');
 }
 
 .header {
@@ -28,7 +33,7 @@ h1 {
 }
 
  /*all of these should resize based on screen size*/
- .container {
+.container {
      display: flex;
      flex-direction: row;
      justify-content: flex-end;
@@ -47,8 +52,7 @@ h1 {
      
 
  }
-
- .topbutton :hover{
+ .topbutton:hover{
      color: blue;
      border-color: blue;
      
@@ -71,6 +75,10 @@ h1 {
      padding-left: 30px;
 }
 
+.topbutton2:hover{
+     color: blue;
+     border-color: blue;
+}
  .searchform {
      border-radius: 5px;
      
@@ -91,6 +99,17 @@ h1 {
      border-color: gray;
      border-radius: 20px;
      margin-right: 20px;
+     padding: 5px 5px 5px 0px;
+}
+
+.cost1{
+     color:blue ;
+     background-color: aquamarine;
+     border-radius: 20px;
+     border-style: solid;
+     border-color: aquamarine;
+     padding: 7px;
+     margin-right: 10px;
 }
 
 .navfamilybutton{
@@ -129,7 +148,7 @@ h1 {
 
 .achead {
      
-     display: block;
+     margin-right: 50%;
      clear: both;
      padding: 10px;
 }
@@ -142,17 +161,46 @@ h1 {
      border-width: 5px;
      border-radius: 30px;
      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
-     width:30%;
-     padding: 5px;
+     width:300px;
+     height: auto;
      margin: 20px;
 }
 
-.accomcard img {
-     object-fit: fill;
-     width: 40%;
-     height: auto;
+ /* .accomcard img {
+     
+     object-fit:scale-down;
+     width: 100%;
+     height:auto;
      border-top-left-radius: 30px;
      border-top-right-radius: 30px;
+     margin: auto;
+     
+} */
+/* RESIZE IMAGES TO IMAGE 1 SIZE  */
+.card-image {
+     height: 60%;
+     width: 100%;
+     border-radius: 30px 30px 0 0;
+     object-fit: cover;
+ }
+
+ .card-image2 {
+     height: 50%;
+     width: 100%;
+     border-radius: 30px 30px 0 0;
+     object-fit: cover;
+ }
+
+/* adjust card image heights for images so lines 1 and 2 are same height */
+
+/* .img1{
+     width: 200px;
+     height: 200px;
+     object-fit: cover;
+} */
+
+.bgimg {
+     background-image: url('images/accomodation/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg');
 }
 
 .container-pop {
@@ -184,8 +232,8 @@ h1 {
 
 .popcard img {
      object-fit: fill;
-     width: 30%;
-     height: auto;
+     width: 40%;
+     height: 100%;
      border-top-left-radius: 30px;
      border-bottom-left-radius: 30px;
      float: left;
@@ -205,7 +253,7 @@ h1 {
      display: flex;
      flex-wrap: wrap;
      flex-direction: row;
-     background-color: gray;
+     background-color: #F2F2F2;
      border-radius: 10px;
      max-width: 90%;
      margin-left: 10px;
@@ -213,7 +261,25 @@ h1 {
     
 }
 
+.actcard1 {
 
+     background-color: white;
+     border-color: white;
+     border-style: solid;
+     border-width: 5px;
+     border-radius: 30px;
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+     width:20%;
+     height: 100%;
+     margin: 20px;
+}
+
+.card-image3 {
+     height: 100%;
+     width: 30%;
+     border-radius: 30px 30px 0 0;
+     object-fit: cover;
+}
 
 .footer {
      display: flex;
@@ -226,6 +292,7 @@ h1 {
      background-color: #F2F2F2;
      color: black;
      text-align: center;
+     
 }
 
 .li {
