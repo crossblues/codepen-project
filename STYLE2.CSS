@@ -82,12 +82,23 @@
 
 .toptxt {
      margin-left: 30px;
+     text-decoration: none;
+}
+
+.toptxt a {
+     text-decoration: none;
+     
 }
 
 .toptxt2 {
      margin-left: 30px;
+     text-decoration: none;
 }
 
+.toptxt2 a{
+text-decoration: none;
+     
+}
 /* NAV */
 .nav{
      margin-left: 10px;
@@ -735,6 +746,7 @@
      border-bottom-style: solid;
      border-bottom-width: medium;
      padding-bottom: 10px;
+     padding-right: 210px;
      width: 50%;
      }
   }
@@ -748,6 +760,7 @@
      border-bottom-style: solid;
      border-bottom-width: medium;
      padding-bottom: 10px;
+     padding-right: 250px;
      width: 50%;
      }
   }
@@ -778,7 +791,7 @@
     @media screen and (max-width: 992px){
      .container-pop {     
      width: 100%;
-     min-width: 900px;
+     min-width: 768px;
      margin: 0px;
      margin-left: 10px;
      padding: 0px;
@@ -802,6 +815,48 @@
      margin: 0px;
      margin-left: 10px;
      padding: 0px;
+     }
+  }
+
+  @media screen and (max-width: 992px){
+     .container-act {     
+     margin: 0px;
+     margin-left: 10px;
+     padding: 0px;
+     flex-direction: column;
+     width: 100%;
+     min-width: 600px;
+     }
+  }
+
+  @media screen and (max-width: 992px){
+     .actcard2 {     
+       width: 90%;
+       min-width: 300px;
+       padding-left: 0px;
+       margin-left: 0px;
+     }
+  } 
+  
+  @media screen and (max-width: 992px){
+     .actcard1 {
+       
+       width: 90%;
+       max-height: 40%;
+       min-width: 600px;
+       padding-left: 0px;
+       margin-left: 0px;
+       height: auto;
+     }
+  }
+
+  @media screen and (max-width: 992px){
+     .card-image3 {
+          height: 200px;
+          width: 100%;
+          border-radius: 30px 30px 0 0;
+          object-fit:cover;
+       
      }
   }
   /* I WANT TO SPLIT SCREEN 50/50 BETWEEN ACCOM AND POPULAR CARDS */
