@@ -11,7 +11,7 @@ type="text/css" rel="stylesheet">
 </head>
 
 <body class="header">
-    <img src='images\logo\Booki.png' alt = 'specialimage' title='image'>
+    <img class="topimg" src='images\logo\Booki.png' alt = 'specialimage' title='image'>
   <div class="container">
     
     <div>
@@ -25,163 +25,196 @@ type="text/css" rel="stylesheet">
     </div>
 </body>
 
-<nav>
-    <h3>
+<nav class="nav">
+    <h3 class="toptxt">
         Find a place for your dream vacation
     </h3>
-    <p>
+    <p class="toptxt2">
         Downtown or in nature
     </p>
 
-<div class="search">
-    <div class="searchform">
-        <form action="Search">
-            <label for="search-accom">Search:</label>
-        <input type="text" name="search-accom" id="search-accom">
-        </form>
-    </div>   
-</div>
+<!-- <div class="search">
+    <span class="icon">
+        <i class="fa-solid fa-location-dot"></i>
+    </span>
+    <span class="searchform">
+        <form action="Search" method="get">
+            <label for="search-accom"></label>
+            
+
+        <input type="text" name="search-accom" id="search-accom"> 
+        
+        </form> 
+    </span>
+     <button type="submit" class="searchbutton">
+                Search
+            </button>
+</div> -->
+
+<form action="./" method="get">
+    <div class="searchbar">
+        <span class="icon"> <i class="fa-solid fa-location-dot"></i> </span>
+        <input type="text" class="searchbar__input" name="search" placeholder="Marseille, France">
+        <button type="submit" class="searchbar__button">
+            <h3> <b> Search </b> </h3>
+        </button>
+    </div>
+</form>
  
     <div class="nav-bars">
-        <h5 class="filter"> Filters </h5>
+        <h4 class="filter"> Filters </h4>
         <a class="navcostbutton" href="#cost"> <span class="cost1"><i class="fa-solid fa-money-bill-wave"></i></span> Low cost</a>
-        <a class="navfamilybutton" href="#nav">Family-friendly</a>
-        <a class="navromanbutton" href="#roman">Romantic</a>
-        <a class="navpetbutton" href="#pet">Pets allowed</a>
+        <a class="navfamilybutton" href="#nav"> <span class="family1"> <i class="fa-solid fa-person"></i></span> Family-friendly</a>
+        <a class="navromanbutton" href="#roman"> <span class="roman1"> <i class="fa-solid fa-heart"></i></span> Romantic</a>
+        <a class="navpetbutton" href="#pet"> <span class="pet1"><i class="fa-solid fa-dog"></i> </span> Pets allowed</a> 
      </div>
     
+     <div class="infotxt">
+        <h5> <span class="infosign"><i class="fa-solid fa-info"></i></span> More than 500 accomodations are available in this city</h5>
+     </div>
 </nav>
 
-
+<div class="reversal">
 
 <aside>
 
     <div class="container-accom">
-        <h2 class="achead"> Accomodations in Marseille </h2>
+        <h2 class="achead"> <b> Accomodations in Marseille </b> </h2>
         <div class="accomcard">
              
                 <img class='card-image' src='images\accomodation\4_small\marcus-loke-WQJvWU_HZFo-unsplash.jpg' alt='accom image 1' title='Auberge la cannebiere'>
-                <h3> Auberge la Cannebiere</h3>
-                    <p> Night starting at 25</p> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
-            
+              <div class="cardtxt">  <h3> Auberge la Cannebiere</h3>
+                    <p> Night starting at <b>25€</b></p> <span class="bluestar"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></span> <span class="greystar"> <i class="fa-solid fa-star"></i></span>
+                </div>
         </div>
 
         <div class="accomcard">
            
             <img class='card-image' src='images\accomodation\4_small\fred-kleber-gTbaxaVLvsg-unsplash.jpg' alt='accom image 1' title='Auberge la cannebiere'>
-            <h3> Hotel du port </h3>
-                <p> Night starting at 52</p> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
-        </div>
+            <div class="cardtxt"> <h3> Hotel du port </h3>
+                <p> Night starting at <b>52€</b></p> <span class="bluestar"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></span>
+        
+            </div>
+         </div>
             
         <div class="accomcard">
              
             <img class='card-image' src='images\accomodation\4_small\reisetopia-B8WIgxA_PFU-unsplash.jpg' alt='accom image 1' title='Auberge la cannebiere'>
-            <h3> Les mouettes Hotel </h3>
-                <p> Night starting at 76</p> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+            <div class="cardtxt"> <h3> Les mouettes Hotel </h3>
+                <p> Night starting at <b>76€</b></p> <span class="bluestar"> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> </span> <span class="greystar"> <i class="fa-solid fa-star"></i> </span>
         </div>
+    </div>
 
         <div class="accomcard">
              
             <img class='card-image2' src='images\accomodation\4_small\annie-spratt-Eg1qcIitAuA-unsplash.jpg' alt='accom image 1' title='Auberge la cannebiere'>
-            <h3> Hotel de la mer </h3>
-                <p> Night starting at 46</p> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+            <div class="cardtxt"> <h3> Hotel de la mer </h3>
+                <p> Night starting at <b>46€</b></p> <span class="bluestar"> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> </span> <span class="greystar"> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> </span>
         </div>
+        </div> 
 
         <div class="accomcard">
             
             <img  class='card-image2' src='images\accomodation\4_small\nicate-lee-kT-ZyaiwBe0-unsplash.jpg' alt='accom image 1' title='Auberge la cannebiere'>
-            <h3> Auberge Le Panier </h3>
-                <p> Night starting at 23</p> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+            <div class="cardtxt"> <h3> Auberge Le Panier </h3>
+                <p> Night starting at <b>25€</b></p> <span class="bluestar"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> </span> <span class="greystar"> <i class="fa-solid fa-star"></i> </span>
+           
+            </div>
         </div>
 
         <div class="accomcard">
              
             <img class='card-image2' src='images\accomodation\4_small\febrian-zakaria-M6S1WvfW68A-unsplash.jpg' alt='accom image 1' title='Auberge la cannebiere'>
-            <h3> Hotel chez Amina </h3>
-                <p> Night starting at 96</p> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+            <div class="cardtxt"> <h3> Hotel chez Amina </h3>
+                <p> Night starting at <b>96€</b> </p> <span class="bluestar"> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> </span>
+            </div>
         </div>
-
-       
+       <h3 class="bottxt"> <b>Show More</b></h3>
     </div>
 </aside>
 
 <article>
  <h2> </h2>
     <div class="container-pop">
-        <h1> Most Popular </h1>
+         <div class="poptxt"><h1> Most Popular </h1></div>
         <div class="popcard">
             
                 <img src='images\accomodation\4_small\emile-guillemot-Bj_rcSC5XfE-unsplash.jpg' alt='accom image 1' title='Auberge la cannebiere'>
                 <h3> Morning Sun Hotel </h3>
-                    <p> Night starting at 128</p>
+                    <p> Night starting at <b>128€</b></p>
+                    <span class="bluestar"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></span>
             
         </div>
 
         <div class="popcard">
             
             <img src='images\accomodation\4_small\aw-creative-VGs8z60yT2c-unsplash.jpg' alt='accom image 1' title='Auberge la cannebiere'>
-            <h3> fuckin MALIS MAN </h3>
-                <p> Night starting at 71</p>
-        
+            <h3> Au coeur de l'eau Bed and Breakfast </h3>
+                <p> Night starting at <b>71€</b></p>
+                <span class="bluestar"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></span> <span class="greystar"> <i class="fa-solid fa-star"></i></span>
     </div>
 
     <div class="popcard">
             
         <img src='images\accomodation\4_small\febrian-zakaria-sjvU0THccQA-unsplash.jpg' alt='accom image 1' title='Auberge la cannebiere'>
         <h3> Tout bleu et Blanc Hotel </h3>
-            <p> Night starting at <em>68€</em></p>
+            <p> Night starting at <b>68€</b></p>
+            <span class="bluestar"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></span> <span class="greystar"> <i class="fa-solid fa-star"></i></span>
     </div>
 </div>
-
+</div>
 
     </div>
 </article>
-
+<h2 class="acttxt">Activities in Marseille</h2>
 <section>
-    <h2 class="acttxt">Activities in Marseille</h2>
+    
     <div class="container-act">
 
         <div class="actcard1">
              
             <img class='card-image3' src='images\activites\3_medium\reno-laithienne-QUgJhdY5Fyk-unsplash.jpg' alt='accom image 1' title='Auberge la cannebiere'>
-            <h3> Old port </h3>
+            <h3 class="cardtxt2"> <b> Old port </b></h3>
+                
+        </div>
+       <div class="subcont-act"> 
+        <div class="actcard2">
+             
+            <img class='card-image2' src='images\activites\3_medium\paul-hermann-QFTrLdQIRhI-unsplash.jpg' alt='accom image 1' title='Auberge la cannebiere'>
+            <h3 class="cardtxt2"> Pomegues Fort </h3>
                 
         </div>
 
-        <div class="accomcard">
+        <div class="actcard2">
              
-            <img class='card-image2' src='images\activites\3_medium\reno-laithienne-QUgJhdY5Fyk-unsplash.jpg' alt='accom image 1' title='Auberge la cannebiere'>
-            <h3> Old port </h3>
+            <img class='card-image2' src='images\activites\3_medium\kevin-hikari-rV_Qd1l-VXg-unsplash.jpg' alt='accom image 1' title='Auberge la cannebiere'>
+            <h3 class="cardtxt2"> Frioul Island </h3>
+                
+        </div>
+      </div>
+
+        <div class="actcard1">
+             
+            <img class='card-image3' src='images\activites\3_medium\kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg' alt='accom image 1' title='Auberge la cannebiere'>
+            <h3 class="cardtxt2"> Calanques national park </h3>
                 
         </div>
 
-        <div class="accomcard">
+       <div class="subcont-act"> 
+        <div class="actcard2">
              
-            <img class='card-image2' src='images\activites\3_medium\reno-laithienne-QUgJhdY5Fyk-unsplash.jpg' alt='accom image 1' title='Auberge la cannebiere'>
-            <h3> Old port </h3>
+            <img class='card-image2' src='images\activites\3_medium\florian-wehde-xW9e8gdotxI-unsplash.jpg' alt='accom image 1' title='Auberge la cannebiere'>
+            <h3 class="cardtxt2"> Notre-dame-de-la-Garde </h3>
                 
         </div>
 
-        <div class="accomcard">
+        <div class="actcard2">
              
-            <img class='card-image2' src='images\activites\3_medium\reno-laithienne-QUgJhdY5Fyk-unsplash.jpg' alt='accom image 1' title='Auberge la cannebiere'>
-            <h3> Old port </h3>
+            <img class='card-image2' src='images\activites\3_medium\lena-paulin-wH2-EJoDcV0-unsplash.jpg' alt='accom image 1' title='Auberge la cannebiere'>
+            <h3 class="cardtxt2"> Longchamp park </h3>
                 
         </div>
-
-        <div class="accomcard">
-             
-            <img class='card-image2' src='images\activites\3_medium\reno-laithienne-QUgJhdY5Fyk-unsplash.jpg' alt='accom image 1' title='Auberge la cannebiere'>
-            <h3> Old port </h3>
-                
-        </div>
-
-        <div class="accomcard">
-             
-            <img class='card-image2' src='images\activites\3_medium\reno-laithienne-QUgJhdY5Fyk-unsplash.jpg' alt='accom image 1' title='Auberge la cannebiere'>
-            <h3> Old port </h3>
-                
-        </div>
+    </div>
     </div>
 
 </section>
@@ -190,7 +223,7 @@ type="text/css" rel="stylesheet">
     <div class="footer">
         <div>
             <h2>About</h2>
-            <ul>
+            <ul class="footerlist">
                 <li>Site Map</li>
                 <li>General Terms and Conditions</li>
                 <li>Data and Privacy</li>
@@ -200,7 +233,7 @@ type="text/css" rel="stylesheet">
 
         <div>
             <h2>Our Accomodations</h2>
-            <ul>
+            <ul class="footerlist">
                 <li>Quality Assessment</li>
                 <li>You have a hotel?</li>
                 
@@ -210,7 +243,7 @@ type="text/css" rel="stylesheet">
 
         <div>
             <h2>Assistance</h2>
-            <ul>
+            <ul class="footerlist">
                 <li>Help Desk</li>
                 <li>Contact Us</li>
                 
