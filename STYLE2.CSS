@@ -12,7 +12,10 @@
      padding: 0;
 }
 
-
+a {
+     text-decoration: none;
+     color: black;
+   }
 
 @font-face {
      font-family: Raleway;
@@ -433,6 +436,8 @@ text-decoration: none;
      height: 30%;
      flex-flow: column;
      flex-wrap: wrap;
+     text-decoration: none;
+     color: black;
      
 }
 
@@ -449,6 +454,8 @@ text-decoration: none;
 .popcard p {
      line-height: 4;
      margin-bottom: 20px;
+     text-decoration: none;
+     color: black;
 }
 
 
@@ -516,10 +523,14 @@ text-decoration: none;
 
 .cardtxt {
      margin-left: 40px;
+     text-decoration: none;
+     color: black;
 }
 
 .cardtxt2 {
      margin: 15px;
+     text-decoration: none;
+     color: black;
 }
 
 .card-image4 {
@@ -561,19 +572,19 @@ text-decoration: none;
      }
   }
 
-  @media screen and (max-width: 768px){
+@media screen and (max-width: 768px){
      .toptxt {
           margin-left: 10px;     
      }
   }
 
-  @media screen and (max-width: 768px){
+@media screen and (max-width: 768px){
      .toptxt2 {
           margin-left: 10px;     
      }
   }
 
-  @media screen and (max-width: 768px){
+@media screen and (max-width: 768px){
      .searchbar__button {
           border-radius: 5px;    
      }
@@ -588,7 +599,7 @@ text-decoration: none;
      }
   }
 
-  @media screen and (max-width: 768px){
+@media screen and (max-width: 768px){
      .filter{
        
        clear: both;
@@ -596,7 +607,7 @@ text-decoration: none;
      }
   }
 
-  @media screen and (max-width: 768px){
+@media screen and (max-width: 768px){
      .bottxt {
        display: none;
      }
@@ -620,7 +631,7 @@ text-decoration: none;
           }
    }
 
-   @media screen and (max-width:768px) {
+@media screen and (max-width:768px) {
      .achead {
           margin-left: 20px;
           }
@@ -636,7 +647,7 @@ text-decoration: none;
           }
    }
 
-   @media screen and (max-width:768px) {
+@media screen and (max-width:768px) {
      .card-image{
           height: 200px;
           width: 100%;
@@ -657,14 +668,14 @@ text-decoration: none;
           }
    }
 
-   @media screen and (max-width:768px) {
+@media screen and (max-width:768px) {
      .popcard {
           width: 90%;
           max-width: 100%;
           }
    }
 
-   @media screen and (max-width:768px) {
+@media screen and (max-width:768px) {
      .popcard img {
           width: 50%;
           max-width: 100%;
@@ -698,7 +709,7 @@ text-decoration: none;
      }
   }
 
-  @media screen and (max-width: 768px){
+@media screen and (max-width: 768px){
      .card-image3 {
           height: 200px;
           width: 100%;
@@ -709,7 +720,7 @@ text-decoration: none;
   }
   
 
-  @media screen and (max-width: 768px){
+@media screen and (max-width: 768px){
      .actcard2 {     
        width: 90%;
        min-width: 300px;
@@ -718,7 +729,7 @@ text-decoration: none;
      }
   } 
 
-  @media screen and (max-width: 768px){
+@media screen and (max-width: 768px){
      .footer {     
      flex-direction: column;
      text-align: start;
@@ -726,7 +737,7 @@ text-decoration: none;
      }
   }
 
-  @media screen and (max-width: 768px){
+@media screen and (max-width: 768px){
      .container {     
      justify-content: flex-start;
      align-content: space-between;
@@ -735,7 +746,7 @@ text-decoration: none;
      }
   }
 
-  @media screen and (max-width: 768px){
+@media screen and (max-width: 768px){
      .topbutton {     
      border: 0px;
      padding: 0px;
@@ -751,7 +762,7 @@ text-decoration: none;
      }
   }
 
-  @media screen and (max-width: 768px){
+@media screen and (max-width: 768px){
      .topbutton2 {     
      border: 0px;
      padding: 0px;
@@ -765,21 +776,21 @@ text-decoration: none;
      }
   }
 
-  @media screen and (max-width: 768px){
+@media screen and (max-width: 768px){
      .topbutton2:hover {     
      border-color: #0065FC;
      color: #0065FC;
      }
   }
 
-  @media screen and (max-width: 768px){
+@media screen and (max-width: 768px){
      .topbutton:hover {     
      border-color: #0065FC;
      color:#0065FC;
      }
   }
 
-  @media screen and (max-width: 768px){
+@media screen and (max-width: 768px){
      .topimg {     
      width: 191px;
      height: 90px;
@@ -788,7 +799,7 @@ text-decoration: none;
 
   /* TALBLET FORMATTING */
 
-    @media screen and (max-width: 992px){
+@media only screen and (min-width: 769px) and (max-width: 992px){
      .container-pop {     
      width: 100%;
      min-width: 768px;
@@ -796,29 +807,24 @@ text-decoration: none;
      margin-left: 10px;
      padding: 0px;
      flex-direction: row;
+     border-radius: 0px;
      }
   }
 
   
-  @media screen and (max-width: 992px){
+@media screen and (max-width: 992px){
      .container-accom {     
-     width: 100%;
-     margin: 0px;
-     margin-left: 10px;
-     padding: 0px;
-     }
-  }
+          flex-direction: column;
+          width: 100%;
+          margin: 0px;
+          min-width: 330px;
+          border-radius: 0px;
+          background-color: white;
+          }
+   }
+  
 
-  @media screen and (max-width: 992px){
-     .container-accom {     
-     width: 100%;
-     margin: 0px;
-     margin-left: 10px;
-     padding: 0px;
-     }
-  }
-
-  @media screen and (max-width: 992px){
+@media screen and (max-width: 992px){
      .container-act {     
      margin: 0px;
      margin-left: 10px;
@@ -829,7 +835,7 @@ text-decoration: none;
      }
   }
 
-  @media screen and (max-width: 992px){
+@media screen and (max-width: 992px){
      .actcard2 {     
        width: 90%;
        min-width: 300px;
@@ -838,7 +844,7 @@ text-decoration: none;
      }
   } 
   
-  @media screen and (max-width: 992px){
+@media screen and (max-width: 992px){
      .actcard1 {
        
        width: 90%;
@@ -850,7 +856,7 @@ text-decoration: none;
      }
   }
 
-  @media screen and (max-width: 992px){
+@media screen and (max-width: 992px){
      .card-image3 {
           height: 200px;
           width: 100%;
