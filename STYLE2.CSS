@@ -6,7 +6,11 @@
      font-family: 'Raleway', sans-serif;
    }
 
-
+   :root {
+     --blue: #0065FC;
+     --ligther-blue: #DEEBFF;
+     --Gray: #F2F2F2;
+ }
 
 * { margin: 0;
      padding: 0;
