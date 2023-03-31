@@ -18,77 +18,75 @@
     <script src="https://kit.fontawesome.com/a6f6f49cd5.js" crossorigin="anonymous"></script>
 </head>
 
-
-
-<header >
-    <div class="site-header">
-        <a href="#"><img src="images/logo/Booki@3x.png" alt="Booki Logo" class="site-logo"></a>
-        <a href="#"><img src="images/logo/Booki@3x.png" alt="Booki Logo" class="site-logo-mobile"></a>
-        <h2 class="site-heading">  Find a place for your dream vacation</h2>
-        <h3 class="site-subheading">Downtown or in nature</h3>
+<body class="header">
+    <img class="topimg" src='images/logo/Booki.png' alt = 'specialimage' title='image'>
+  <div class="container">
+    
+    <div>
+      
+      <a class="topbutton" href="#accom"> Accomodations </a> 
     </div>
-    <!--Nav-->
-    <nav class="site-nav">
-        <a class="nav-text" href="#accomodations">Accomodations</a>
-        <a class="nav-text" href="#activities">Activities</a>
-    </nav>
+    <div> 
+        <a class="topbutton2" href="#act"> Activities </a>
+    </div> 
+    
+    </div>
 
-</header>
+    <nav class="nav">
+    <h3 class="toptxt">
+        Find a place for your dream vacation
+    </h3>
+    <p class="toptxt2">
+        Downtown or in nature
+    </p>
 
-<!--Search Box-->
-<section class="site-search-form-section">
-    <form class="site-search-form">
-        <div class="form-icon-background">
-            <i class="form-icon fa-solid fa-location-dot"></i>
+
+    <!-- <div class="search">
+    <span class="icon">
+        <i class="fa-solid fa-location-dot"></i>
+    </span>
+    <span class="searchform">
+        <form action="Search" method="get">
+            <label for="search-accom"></label>
+            
+
+        <input type="text" name="search-accom" id="search-accom"> 
+        
+        </form> 
+    </span>
+     <button type="submit" class="searchbutton">
+                Search
+            </button>
+
+        </div> -->
+
+    <form action="./" method="get">
+     <div class="searchbar">
+            <span class="icon"> <i class="fa-solid fa-location-dot"></i> </span>
+           <input type="text" class="searchbar__input" name="search" placeholder="Marseille, France">
+           <button type="submit" class="searchbar__button">
+               <b> Search </b> 
+        </button>
         </div>
-        <input type="text" id="form-text-field" class="form-text-field" name="location"
-            placeholder="Enter a location">
-        <button type="submit" class="form-button">Search</button>
-        <button type="submit" class="form-button-mobile"><i
-                class="fa-solid fa-magnifying-glass form-button-icon"></i></button>
     </form>
-</section>
-<!--Filters Section-->
-<section class="filter-section">
-    <h2 class="filter-title">Filters</h2>
-    <ul class="filters">
-        <li class="filter-item order-first-place">
-            <div class="filter-icon-background ">
-                <i class="item-icon  fa-solid fa-money-bill-wave"></i>
-            </div>
-            <p class="item-text">Low cost</p>
-        </li>
-        <li class="filter-item">
-            <div class="filter-icon-background">
-                <i class="item-icon fa-solid fa-child-reaching"></i>
-            </div>
-            <p class="item-text">Family-friendly</p>
-        </li>
-        <li class="filter-item order-second-place">
-            <div class="filter-icon-background">
-                <i class="item-icon  fa-solid fa-heart"></i>
-            </div>
-            <p class="item-text">Romantic</p>
-        </li>
-
-        <li class="filter-item">
-            <div class="filter-icon-background">
-                <i class="item-icon  fa-solid fa-dog"></i>
-            </div>
-            <p class="item-text pets-item">Pets allowed</p>
-        </li>
-    </ul>
-
-    <div class="tooltip">
-        <i class="tooltip-icon fa-solid fa-info"></i>
-        <p class="tooltip-text">More than 500 accomodations are available in this city</p>
-    </div>
-</section>
+ 
+    <div class="nav-bars">
+        <h4 class="filter"> Filters </h4>
+        <a class="navcostbutton" href="#cost"> <span class="cost1"><i class="fa-solid fa-money-bill-wave"></i></span> Low cost</a>
+        <a class="navfamilybutton" href="#nav"> <span class="family1"> <i class="fa-solid fa-person"></i></span> Family-friendly</a>
+        <a class="navromanbutton" href="#roman"> <span class="roman1"> <i class="fa-solid fa-heart"></i></span> Romantic</a>
+        <a class="navpetbutton" href="#pet"> <span class="pet1"><i class="fa-solid fa-dog"></i> </span> Pets allowed</a> 
+     </div>
+    
+     <div class="infotxt">
+        <h5> <span class="infosign"><i class="fa-solid fa-info"></i></span> More than 500 accomodations are available in this city</h5>
+     </div>
+</nav>
 
 <aside>
 
     <div class="container-accom">
-        <h2 class="achead"> Accomodations in Marseille </h2>
+        <h2 class="achead"> <b> Accomodations in Marseille </b> </h2>
         <a class="accomcard" href="#">
         <div>
              
@@ -152,7 +150,7 @@
 <article>
  
         <div class="container-pop">
-            <div class="poptxt"><h1> Most Popular <span class="popstar"> <i class="fa-solid fa-star" style="color: #000000;"></i> </span> </h1></div>
+            <div class="poptxt"><h1> Most Popular </h1></div>
             <a class="popcard" href="#">
                     <div>
                         
@@ -253,7 +251,7 @@
 <footer>
     <div class="footer">
         <div>
-            <p> <b> About </b> </p>
+            <h2>About</h2>
             <ul class="footerlist">
                 <li>Site Map</li>
                 <li>General Terms and Conditions</li>
@@ -263,7 +261,7 @@
         </div>
 
         <div>
-            <p> <b> Our Accomodations </b> </p>
+            <h2>Our Accomodations</h2>
             <ul class="footerlist">
                 <li>Quality Assessment</li>
                 <li>You have a hotel?</li>
@@ -273,7 +271,7 @@
         </div>
 
         <div>
-            <p> <b> Assistance </b> </p>
+            <h2>Assistance</h2>
             <ul class="footerlist">
                 <li>Help Desk</li>
                 <li>Contact Us</li>
