@@ -57,8 +57,8 @@ a {
      border-bottom: 0px;
      padding-top: 88px;
      box-shadow: 2px  rgba(0,0,0,0.5);
+     }
 
- }
  .topbutton:hover{
      color: #0065FC;
      border-color: #0065FC;
@@ -104,7 +104,6 @@ a {
 
 .toptxt2 a{
 text-decoration: none;
-     
 }
 /* NAV */
 .nav{
@@ -163,8 +162,9 @@ text-decoration: none;
  }
  
  .site-heading {
-     font-size: 34px;
+     font-size: 25px;
      margin: 10px 0;
+     font-weight: bolder;
  }
  
  .site-subheading {
@@ -193,7 +193,7 @@ text-decoration: none;
      text-align: center;
      font-weight: 500;
      cursor: pointer;
- 
+     font-size: 18px;
  }
  
  .nav-text:hover {
@@ -208,24 +208,24 @@ text-decoration: none;
 }
 
 .form-icon-background {
-    height: 85px;
+    height: 70px;
     width: 80px;
     display: inline-block;
-    margin-right: -4px;
+    margin-right: 0px;
     border-radius: 20px 0 0 20px;
     background-color: var(--Gray);
-    padding: 26px;
+    padding: 20px;
 }
 
 .form-icon {
     font-size: 30px;
-
+    margin-left: 8px;
 }
 
 .form-text-field {
     border: var(--Gray) 1px solid;
     margin: 0;
-    height: 85px;
+    height: 70px;
     width: 18%;
     font-weight: 700;
     padding-left: 20px;
@@ -234,7 +234,7 @@ text-decoration: none;
 }
 
 .form-button {
-    height: 85px;
+    height: 70px;
     width: 120px;
     border-radius: 0 25px 25px 0;
     margin-left: -5px;
@@ -278,6 +278,7 @@ text-decoration: none;
      justify-content: space-between;
      align-items: center;
      font-size: 24px;
+     flex-wrap: wrap;
  }
  
  
@@ -532,6 +533,7 @@ text-decoration: none;
      margin-right: 70%;
      clear: both;
      padding: 10px;
+     font-weight: 900;
 }
 
 .accomcard {
@@ -617,7 +619,12 @@ text-decoration: none;
 /* ARTICLE (POPULAR) */
 .poptxt {
      margin-left: 30px;
-     margin-top: 10px;
+     margin-top: 40px;
+}
+
+.popstar {
+     float: right;
+     margin-right: 100px;
 }
 
 .popcard {
@@ -629,7 +636,7 @@ text-decoration: none;
      border-radius: 30px;
      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
      width: 80%;
-     margin-top: 20px;
+     margin-top: 23px;
      margin-left: 30px;
      margin-bottom: 20px;
      height: 30%;
@@ -641,7 +648,7 @@ text-decoration: none;
 }
 
 .popcard img {
-     object-fit: fill;
+     object-fit: cover;
      width: 40%;
      height: 200px;
      border-top-left-radius: 30px;
@@ -655,9 +662,13 @@ text-decoration: none;
      margin-bottom: 20px;
      text-decoration: none;
      color: black;
+     margin-left: 10px;
 }
 
-
+.popcard h3 {
+     padding-top: 20px;
+     margin-left: 10px;
+}
 
 .acttxt{
      clear: both;
@@ -678,8 +689,6 @@ text-decoration: none;
      margin-top: 10px;
      height: auto;
      justify-content: space-between;
-     
-    
 }
 
 .subcont-act {
@@ -702,10 +711,7 @@ text-decoration: none;
 }
 
 .actcard2 {
-
      background-color: white;
-     
-     
      border-radius: 30px;
      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
      width:350px;
@@ -749,8 +755,10 @@ text-decoration: none;
      width: 100%;
      background-color: #F2F2F2;
      color: black;
-     text-align: center;
+     text-align: left;
      line-height: 2;
+     padding-top: 40px;
+     padding-bottom: 30px;
 }
 
 .footerlist {
@@ -769,227 +777,170 @@ text-decoration: none;
      flex-direction: column;
      justify-content: center;
      }
-  }
 
-@media screen and (max-width: 768px){
      .toptxt {
-          margin-left: 10px;     
-     }
-  }
+               margin-left: 10px;     
+          }
 
-@media screen and (max-width: 768px){
      .toptxt2 {
           margin-left: 10px;     
-     }
-  }
+          }
 
-@media screen and (max-width: 768px){
      .searchbar__button {
           border-radius: 5px;    
-     }
-  }
+          }
 
-@media screen and (max-width: 768px){
      .nav-bars{
        flex-direction: row;
        flex-wrap: wrap;
        clear: right;
-       
-     }
-  }
-
-@media screen and (max-width: 768px){
+          }
+      
      .filter{
-       
-       clear: both;
-       
-     }
-  }
+          clear: both;
+     } 
 
-@media screen and (max-width: 768px){
      .bottxt {
-       display: none;
-     }
-  }
+          display: none;
+          }
 
-@media screen and (max-width: 768px){
      .reversal {
           flex-direction: column-reverse;
-     }
-}
-
-
-@media screen and (max-width:768px) {
-     .container-accom {
-          flex-direction: column;
-          width: 100%;
-          margin: 0px;
-          min-width: 330px;
-          border-radius: 0px;
-          background-color: white;
           }
-   }
 
-@media screen and (max-width:768px) {
+     .container-accom {
+     flex-direction: column;
+     width: 100%;
+     margin: 0px;
+     min-width: 330px;
+     border-radius: 0px;
+     background-color: white;
+     } 
+     
      .achead {
           margin-left: 20px;
           }
-   }
 
-@media screen and (max-width:768px) {
      .accomcard {
           width: 90%;
           max-width: 100%;
           clear: both;
           min-width: 300px;
+          }     
 
-          }
-   }
-
-@media screen and (max-width:768px) {
      .card-image{
           height: 200px;
           width: 100%;
           border-radius: 30px 30px 0 0;
           object-fit:cover;
-          }
-   }
-
-@media screen and (max-width:768px) {
+          }   
+          
      .container-pop {
-          flex-direction: column;
-          width: 100%;
-          max-width: 100%;
-          clear: both;
-          margin: 0px;
-          border-radius: 0px;
+     flex-direction: column;
+     width: 100%;
+     max-width: 100%;
+     clear: both;
+     margin: 0px;
+     border-radius: 0px;
+     }
 
-          }
-   }
-
-@media screen and (max-width:768px) {
      .popcard {
-          width: 90%;
-          max-width: 100%;
-          }
-   }
+     width: 90%;
+     max-width: 100%;
+     }  
 
-@media screen and (max-width:768px) {
      .popcard img {
           width: 50%;
           max-width: 100%;
           }
-   }
 
-@media screen and (max-width: 768px){
-   .container-act {
-     flex-direction: column;
-     width: 100%;
-     min-width: 300px;
-   }
-}
+     .container-act {
+          flex-direction: column;
+          width: 100%;
+          min-width: 300px;
+     }
 
-@media screen and (max-width: 768px){
      .acttxt {     
-       padding-left: 0px;
-       margin-left: 0px;
-     }
-  } 
+          padding-left: 0px;
+          margin-left: 0px;
+          }
 
-@media screen and (max-width: 768px){
      .actcard1 {
-       
-       width: 90%;
-       max-height: 40%;
-       min-width: 300px;
-       padding-left: 0px;
-       margin-left: 0px;
-       height: auto;
-     }
-  }
-
-@media screen and (max-width: 768px){
+     
+          width: 90%;
+          max-height: 40%;
+          min-width: 300px;
+          padding-left: 0px;
+          margin-left: 0px;
+          height: auto;
+          }
+     
      .card-image3 {
           height: 200px;
           width: 100%;
           border-radius: 30px 30px 0 0;
           object-fit:cover;
-       
+          
      }
-  }
-  
 
-@media screen and (max-width: 768px){
      .actcard2 {     
-       width: 90%;
-       min-width: 300px;
-       padding-left: 0px;
-       margin-left: 0px;
-     }
-  } 
+          width: 90%;
+          min-width: 300px;
+          padding-left: 0px;
+          margin-left: 0px;
+          }
 
-@media screen and (max-width: 768px){
      .footer {     
      flex-direction: column;
      text-align: start;
      padding-left: 14px;
-     }
-  }
+     margin-bottom: 30px;
+     padding-bottom: 10px;
+     }  
 
-@media screen and (max-width: 768px){
      .container {     
-     justify-content: flex-start;
-     align-content: space-between;
-     margin-top: 20px;
-     margin-bottom: 20px;
-     }
-  }
+          justify-content: flex-start;
+          align-content: space-between;
+          margin-top: 20px;
+          margin-bottom: 20px;
+          }
 
-@media screen and (max-width: 768px){
      .topbutton {     
-     border: 0px;
-     padding: 0px;
-     margin: 0px;
-     margin-left: 10px;
-     margin-right: 10px;
-     border-bottom-color: grey;
-     border-bottom-style: solid;
-     border-bottom-width: medium;
-     padding-bottom: 10px;
-     padding-right: 210px;
-     width: 50%;
-     }
-  }
+          border: 0px;
+          padding: 0px;
+          margin: 0px;
+          margin-left: 10px;
+          margin-right: 10px;
+          border-bottom-color: grey;
+          border-bottom-style: solid;
+          border-bottom-width: medium;
+          padding-bottom: 10px;
+          padding-right: 210px;
+          width: 50%;
+          }
 
-@media screen and (max-width: 768px){
      .topbutton2 {     
-     border: 0px;
-     padding: 0px;
-     margin: 0px;
-     border-bottom-color: grey;
-     border-bottom-style: solid;
-     border-bottom-width: medium;
-     padding-bottom: 10px;
-     padding-right: 250px;
-     width: 50%;
-     }
-  }
+          border: 0px;
+          padding: 0px;
+          margin: 0px;
+          border-bottom-color: grey;
+          border-bottom-style: solid;
+          border-bottom-width: medium;
+          padding-bottom: 10px;
+          padding-right: 250px;
+          width: 50%;
+          }
 
-@media screen and (max-width: 768px){
      .topbutton2:hover {     
-     border-color: #0065FC;
-     color: #0065FC;
-     }
-  }
+          border-color: #0065FC;
+          color: #0065FC;
+          }
 
-@media screen and (max-width: 768px){
      .topbutton:hover {     
-     border-color: #0065FC;
-     color:#0065FC;
-     }
-  }
+          border-color: #0065FC;
+          color:#0065FC;
+          } 
 
-@media screen and (max-width: 768px){
      .topimg {     
      width: 191px;
      height: 90px;
@@ -1000,10 +951,9 @@ text-decoration: none;
 
 @media only screen and (min-width: 769px) and (max-width: 992px){
      .container-pop {     
-     width: 100%;
+     width: auto;
      min-width: 768px;
      margin: 0px;
-     margin-left: 10px;
      padding: 0px;
      flex-direction: row;
      border-radius: 0px;
@@ -1020,32 +970,24 @@ text-decoration: none;
           border-radius: 0px;
           background-color: white;
           }
-   }
-  
 
-@media screen and (max-width: 992px){
      .container-act {     
-     margin: 0px;
-     margin-left: 10px;
-     padding: 0px;
-     flex-direction: column;
-     width: 100%;
-     min-width: 600px;
-     }
-  }
+          margin: 0px;
+          margin-left: 10px;
+          padding: 0px;
+          flex-direction: column;
+          width: 100%;
+          min-width: 600px;
+          }    
 
-@media screen and (max-width: 992px){
      .actcard2 {     
-       width: 90%;
-       min-width: 300px;
-       padding-left: 0px;
-       margin-left: 0px;
-     }
-  } 
-  
-@media screen and (max-width: 992px){
+     width: 90%;
+     min-width: 300px;
+     padding-left: 0px;
+     margin-left: 0px;
+     }   
+
      .actcard1 {
-       
        width: 90%;
        max-height: 40%;
        min-width: 600px;
@@ -1053,9 +995,7 @@ text-decoration: none;
        margin-left: 0px;
        height: auto;
      }
-  }
 
-@media screen and (max-width: 992px){
      .card-image3 {
           height: 200px;
           width: 100%;
@@ -1063,6 +1003,16 @@ text-decoration: none;
           object-fit:cover;
        
      }
-  }
-  /* I WANT TO SPLIT SCREEN 50/50 BETWEEN ACCOM AND POPULAR CARDS */
-
+   }
+  
+ /* NOTES FROM A SECOND PASS
+   I was able to even out padding and some font sizes a little better, it was generally too large
+   font sizes were particularly bad on the header segment and in the footer
+   footer re-justified to left and given appropriate margins/padding too
+   padding changes were on "accomodations in marseille" text, "most popular" text, search bar for size
+   Search bar was made smaller, fontawesome star was added next to most popular
+   CSS for media queries was formatted to be made more readable (still somewhat out of order)
+   I wanted to correct font weights and there are some values of that scattered around, but apparently some custom fonts don't come with it
+   Also changed the way certain images fill out so they don't look as bad when squished by changing to object-fit: cover;
+   I'd have liked to push the blue stars in the "most popular" cards to the bottom but it's best to just submit the second pass instead of taking far too long
+ */
